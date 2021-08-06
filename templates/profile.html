@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">                                 # p2c-21-105
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>you are in your page  </h3> <h1>{{name}}</h1>
+<form action="" method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+
+</form>
+<a href="/">logout</a>
+</body>
+</html>
